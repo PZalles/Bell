@@ -23,6 +23,21 @@
             text-align: center;
             line-height: 80px;
         }
+
+        i {
+            animation: rotate .4s linear infinite alternate;
+            transform-origin: 50% 0;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(30deg);
+            }
+
+            100% {
+                transform: rotate(-30deg);
+            }
+        }
     </style>
 </head>
 
